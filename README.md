@@ -11,6 +11,13 @@ If you're seeing this, you've probably already done this step. Congrats!
 npx sv create my-app
 ```
 
+To recreate this project with the same configuration:
+
+```sh
+# recreate this project
+pnpm dlx sv@1.1.1 create --template minimal --types ts --add prettier --install pnpm ./
+```
+
 ## Adding features
 
 Add features to your project with `sv add`:
